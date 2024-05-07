@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+        <title>To do list</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <section id="header">
+                <div class="content">
+                    <h3><a href="#">Menu</a></h3>
+                    <div class="search-input">
+                        <button><a href="#"><i class="fa-solid fa-magnifying-glass search-logo"></i></a></button>
+                        <input type="text" placeholder="Search...">
+                    </div>
+
+                    <div>
+                        <h4>Tasks</h4>
+                        <div>
+                            <ul id="navbar">
+                                <li><a href="#">Upcoming</a></li>
+                                <li><a href="#">Today</a></li>
+                                <li><a href="#">Calender</a></li>
+                                <li><a href="#">Sticky Wall</a></li>
+                            </ul>
+                        </div>
+
+                        <p><i class="fa-solid fa-plus add-task"></i>Add Task</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div id="box-task">
+                    <div id="home">
+                        <p>Today</p>
+                        <div class="checkbox-list">
+                            <input type="checkbox"><label for="tasks">Workout<br></label>
+                            <input type="checkbox"><label for="tasks">Study<br></label>
+                            <input type="checkbox"><label for="tasks">Hangout<br></label>
+                            <input type="checkbox"><label for="tasks">Dinner<br></label>
+                            <input type="checkbox"><label for="tasks">Sleep<br></label>
+                        </div>
+
+                        <div class="confirmation">
+                            <a href="#" class="color1"><i class="fa-solid fa-check color1"></i>Complete</a>
+                            <a href="#" class="color2"><i class="fa-regular fa-trash-can color2"></i>Delete</a>
+                        </div>
+                    </div>
+                    <div id="home">
+                        <p>Tomorrow</p>
+                    </div>
+                    <div id="home">
+                        <p>This Week</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script href="script.js"></script>
+    </body>
+</html>
